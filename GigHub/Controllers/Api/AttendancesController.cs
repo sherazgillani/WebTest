@@ -9,7 +9,7 @@ namespace GigHub.Controllers.Api
     [Authorize]
     public class AttendancesController : ApiController
     {
-        //api control in gig hub
+        //api control in gig hub branch
         private readonly IUnitOfWork _unitOfWork;
 
         public AttendancesController(IUnitOfWork unitOfWork)
